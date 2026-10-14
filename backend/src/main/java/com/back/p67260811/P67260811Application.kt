@@ -1,4 +1,4 @@
-package com.back.p67260811;
+package com.back.p67260811
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
@@ -9,5 +9,5 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing
 class P67260811Application
 
 fun main(args: Array<String>) {
-        runApplication<P67260811Application>(*args)
+    runApplication<P67260811Application>(*args)
 }
