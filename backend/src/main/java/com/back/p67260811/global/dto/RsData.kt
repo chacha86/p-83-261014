@@ -6,7 +6,6 @@ class RsData<T>(
     private val resultCode: String,
     private val msg: String,
     private val data: T? = null
-
 ) {
 
     constructor(resultCode: String, msg: String) : this(resultCode, msg, null)
