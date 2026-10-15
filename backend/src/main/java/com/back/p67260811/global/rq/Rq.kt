@@ -36,7 +36,7 @@ class Rq(
     fun getCookieValue(name: String, defaultValue: String): String =
         request
             .cookies
-            .firstOrNull { it.name == name }
+            ?.firstOrNull { it.name == name }
             ?.value
             ?.takeIf { it.isNotBlank() }
             ?: defaultValue
