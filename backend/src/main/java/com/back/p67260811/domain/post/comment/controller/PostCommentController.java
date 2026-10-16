@@ -3,7 +3,7 @@ package com.back.p67260811.domain.post.comment.controller;
 import com.back.p67260811.domain.post.comment.dto.PostCommentDto;
 import com.back.p67260811.domain.post.comment.entity.PostComment;
 import com.back.p67260811.domain.post.post.entity.Post;
-import com.back.p67260811.domain.post.post.service.PostService;
+import com.back.p67260811.domain.post.service.PostService;
 import com.back.p67260811.global.dto.RsData;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotBlank;

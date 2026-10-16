@@ -4,7 +4,7 @@ import com.back.p67260811.domain.member.entity.Member;
 import com.back.p67260811.domain.member.service.MemberService;
 import com.back.p67260811.domain.post.post.dto.PostDto;
 import com.back.p67260811.domain.post.post.entity.Post;
-import com.back.p67260811.domain.post.post.service.PostService;
+import com.back.p67260811.domain.post.service.PostService;
 import com.back.p67260811.global.dto.RsData;
 import com.back.p67260811.global.rq.Rq;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;

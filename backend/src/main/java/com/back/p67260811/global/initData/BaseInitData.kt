@@ -1,7 +1,7 @@
 package com.back.p67260811.global.initData
 
 import com.back.p67260811.domain.member.service.MemberService
-import com.back.p67260811.domain.post.post.service.PostService
+import com.back.p67260811.domain.post.service.PostService
 import lombok.RequiredArgsConstructor
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.ApplicationArguments
